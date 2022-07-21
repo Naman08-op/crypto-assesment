@@ -69,6 +69,6 @@ async function getPrice(){
 }
 
 getTransactionList();
-setInterval(getPrice,1500);
+setInterval(getPrice,600000);
 //getPrice();
 
